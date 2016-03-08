@@ -1,0 +1,17 @@
+{
+    "name": "Factorio",
+    "stop": "SIGINT",
+    "exe": "./factorio",
+    "pgrep_exe": "factorio",
+    "trigger": {
+        "started": "Hosting game"
+    },
+    "docker_image": "stevenmirabito/factorio",
+    "install_script": "install/factorio.sh",
+    "manual_log": true,
+    "log": ".scales/latest.log",
+    "ports": {
+        "listen": 34197
+    },
+    "start_dir": "./public/bin/x64"
+}
