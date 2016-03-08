@@ -1,7 +1,7 @@
 {
     "name": "Factorio",
     "stop": "SIGINT",
-    "exe": "./factorio",
+    "exe": "factorio/bin/x64/factorio",
     "pgrep_exe": "factorio",
     "trigger": {
         "started": "Hosting game"
@@ -13,5 +13,5 @@
     "ports": {
         "listen": 34197
     },
-    "start_dir": "./public/bin/x64"
+    "start_dir": "./public"
 }
